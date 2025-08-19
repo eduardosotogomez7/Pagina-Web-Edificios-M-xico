@@ -1,0 +1,740 @@
+
+
+
+
+
+.imagen_inicial{
+  width: 100%;
+  height: 43.125rem;
+  filter: brightness(60%);
+  
+ 
+}
+
+.titulo_inicial{
+  
+  width: 40.625rem;
+  height: 6.25rem;
+  position: absolute;
+  transform: translate(-50% -50%);
+  top: 33.75rem;
+  left: 4.375rem;
+  color: white;
+  font-size: 7.625rem;
+}
+
+.tit_inicio{
+  font-size: 2.25rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+}
+
+
+
+body {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;;
+    padding-bottom: 30px;
+    padding-bottom: 0px;
+
+    
+    
+    
+    
+}
+
+.container {
+    width: 90%;
+    /* max-width: 1400px; */
+    margin: 0 auto;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.titulo-contenedor .titulo {
+    font-size: 40px;
+    color: white
+}
+
+.seccion {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto 0px;
+}
+
+
+.inicio, .edificio, .espacios, .biografias {
+    margin-top: 70px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 6px 0px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 1.5625rem;
+}
+
+.link {
+    font-size: 1.25rem;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: rgb(180, 177, 177);
+}
+.header-bg {
+  background-color: black;
+  height: 120px;
+  
+  
+ 
+  width: 100%;
+  
+  
+}
+
+.edificio, .espacios, .biografias {
+    margin-top: 70px;
+}
+
+.decoracion {
+
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.imagen-edificio {
+    width: 800px;
+    margin-top: 30px;
+}
+
+
+.imagenes-ubicacion {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: 500px;
+    align-items: center;
+}
+
+a:visited{
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: orange;
+}
+
+.background{
+  
+    width: 430px;
+    height: 520px;  
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+      
+  }
+  
+ 
+  
+  
+  
+  .formulario_administrador{
+      height: 550px;
+      width: 400px;
+      background-color: rgb(53, 52, 52);
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      padding: 10px 35px;
+        
+  }
+
+ 
+  
+  .formulario_administrador * {
+      font-family: "Poppins", sans-serif;
+      color: white;
+      letter-spacing: 0.5px;
+      outline: none;
+      border: none;
+  }
+  
+  .formulario_administrador, h3{
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 42px;
+      text-align: center;
+  }
+  
+  label{
+      display: block;
+      margin-top: 30px;
+      font-size: 16px;
+      font-weight: 500;
+  }
+  
+  .formulario_in{
+      display: block;
+      height: 50px;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.151);
+      border-radius: 3px;
+      padding: 0px 10px;
+      margin-top: 8px;
+      font-size: 14px;
+      font-weight: 300;
+  }
+  
+  ::placeholder{
+      color: #e5e5e5;
+  
+  }
+  
+  .boton_formulario{
+      margin-top: 50px;
+      width: 100%;
+      background-color: #fff;
+      color: #080710;
+      padding: 15px 0;
+      margin-bottom: 5px;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  .registrar_administrador{
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .formulario_administrador a:hover{
+    color: white;
+  }
+
+  hr{
+    border: none;
+    width: 80%;
+    height: 2px;
+    background-color: gray;
+    margin: 70px auto;
+  }
+  @media (min-width:801px)  { 
+
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    html{
+      font-size: 10px;
+    }
+   
+    * {box-sizing: border-box}
+    
+
+    .inf_inicio{
+      font-size: 3rem;
+      opacity: 80%;
+      color: gray;
+      font-weight: 300;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .inf_inicio:hover{
+      opacity: 90%;
+    }
+
+     
+  
+    .carrusel{
+      width: 90%;
+      height: 25.5rem;
+      /*background-color: #080710;*/
+      margin: auto;
+      margin-top: 3.25rem;
+      border-radius: 0.9375rem;
+      padding-top: 1.875rem;
+      margin-bottom: 4rem;
+      
+      
+      
+      
+      
+  
+      
+    }
+    .imagenes_contenedor {
+      width: 99%;
+      height: 19.5rem;
+      padding-left: 4.5625rem;
+      margin: auto;
+      justify-content: center;
+      padding-top: 2.35rem;
+      margin-top: -2.8125rem;
+      
+      
+      
+      
+    }
+  
+    
+    .imagen_carrusel {
+      position: relative;
+      width: 22.5rem;
+      min-width: 18.75rem;
+      display: inline-block;
+      margin-right: 1.3rem;
+      height: 15.5rem;
+      box-shadow: 0.2rem;
+      transition: 0.4s ease;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+      
+      }
+    
+    
+    .image {
+      display: block;
+      width: 100%;
+      height: 15.5rem;
+      border-radius: 0.205rem;
+      
+      
+      }
+      
+       .imagen_carrusel:hover {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        transition: 0.4s ease;
+      }
+    
+    
+    .leyenda {
+      position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.5); 
+      color: #f1f1f1;
+      width: 100%;
+      transition: .5s ease;
+      transition: 0.5s ease;
+      color: white;
+      font-size: 1.25rem;
+      padding: 1.25rem;
+      text-align: center;
+    }
+
+   
+    
+   
+    
+  
+    
+  
+    .nombre_carrusel{
+      color: black;
+      text-align: left;
+      margin-top: auto;
+      font-size: 2.8rem;
+      margin-left: 7.875rem;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    }
+  
+  @media (min-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */ 
+    html{
+      font-size: 14px;
+    }
+    * {box-sizing: border-box}
+
+    .inf_inicio{
+      font-size: 2.1428rem;
+      opacity: 80%;
+      color: gray;
+      font-weight: 300;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .inf_inicio:hover{
+      opacity: 90%;
+    }
+
+     
+  
+    .carrusel{
+      width: 90%;
+      height: 25.5rem;
+      /*background-color: #080710;*/
+      margin: auto;
+      margin-top: 3.25rem;
+      border-radius: 0.9375rem;
+      padding-top: 1.875rem;
+      margin-bottom: 4rem;
+      
+      
+      
+      
+      
+  
+      
+    }
+    .imagenes_contenedor {
+      width: 99%;
+      height: 19.5rem;
+      padding-left: 4.5625rem;
+      margin: auto;
+      justify-content: center;
+      padding-top: 2.35rem;
+      margin-top: -2.8125rem;
+      
+      
+      
+      
+    }
+  
+    
+    .imagen_carrusel {
+      position: relative;
+      width: 22.5rem;
+      min-width: 18.75rem;
+      display: inline-block;
+      margin-right: 1.3rem;
+      height: 15.5rem;
+      box-shadow: 0.2rem;
+      transition: 0.4s ease;
+      box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+      
+      }
+    
+    
+    .image {
+      display: block;
+      width: 100%;
+      height: 15.5rem;
+      border-radius: 0.205rem;
+      
+      
+      }
+      
+       .imagen_carrusel:hover {
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        transition: 0.4s ease;
+      }
+    
+    
+    .leyenda {
+      position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.5); 
+      color: #f1f1f1;
+      width: 100%;
+      transition: .5s ease;
+      transition: 0.5s ease;
+      color: white;
+      font-size: 1.25rem;
+      padding: 1.25rem;
+      text-align: center;
+    }
+
+   
+    
+   
+    
+  
+    
+  
+    .nombre_carrusel{
+      color: black;
+      text-align: left;
+      margin-top: auto;
+      font-size: 2.8rem;
+      margin-left: 7.875rem;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+  }
+    @media (min-width:1281px) { 
+      html{
+        font-size: 16px;
+      }
+      
+      * {box-sizing: border-box}
+
+     
+  
+      .carrusel{
+        width: 90%;
+        height: 25.5rem;
+        /*background-color: #080710;*/
+        margin: auto;
+        margin-top: 3.25rem;
+        border-radius: 0.9375rem;
+        padding-top: 1.875rem;
+        margin-bottom: 4rem;
+        
+        
+        
+        
+        
+    
+        
+      }
+      .imagenes_contenedor {
+        width: 99%;
+        height: 19.5rem;
+        padding-left: 4.5625rem;
+        margin: auto;
+        justify-content: center;
+        padding-top: 2.35rem;
+        margin-top: -2.8125rem;
+        
+        
+        
+        
+      }
+    
+      
+      .imagen_carrusel {
+        position: relative;
+        width: 22.5rem;
+        min-width: 18.75rem;
+        display: inline-block;
+        margin-right: 1.3rem;
+        height: 15.5rem;
+        box-shadow: 0.2rem;
+        transition: 0.4s ease;
+        box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+        
+        }
+      
+      
+      .image {
+        display: block;
+        width: 100%;
+        height: 15.5rem;
+        border-radius: 0.205rem;
+        
+        
+        }
+        
+         .imagen_carrusel:hover {
+          -webkit-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+          transform: scale(1.05);
+          transition: 0.4s ease;
+        }
+      
+      
+      .leyenda {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        width: 100%;
+        transition: .5s ease;
+        transition: 0.5s ease;
+        color: white;
+        font-size: 1.25rem;
+        padding: 1.25rem;
+        text-align: center;
+      }
+
+     
+      
+     
+      
+    
+      
+    
+      .nombre_carrusel{
+        color: black;
+        text-align: left;
+        margin-top: auto;
+        font-size: 2.8rem;
+        margin-left: 7.875rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      
+      .inf_inicio{
+        font-size: 2rem;
+        opacity: 80%;
+        color: gray;
+        word-spacing: 2px;
+        font-weight: 300;font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      .inf_inicio:hover{
+        opacity: 90%;
+      }
+    
+      }
+
+ 
+    
+    
+  
+    
+ 
+  .menu{
+    width: 100px;
+    height: 400px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 130px;
+    padding-top: 60px;
+    opacity:50%;
+    border-radius: 5px;
+    transition: 0.5s;
+    position: fixed;
+    
+    
+    
+
+  }
+
+  .boton_menu{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    display: block;
+    margin-bottom: 30px;
+    margin-left: -20px;
+    margin-right: auto;
+    background-color:black;
+    color: #e5e5e5;
+    font-size: 17px;
+    cursor: pointer;
+    
+  }
+
+
+
+  .menu:hover{
+    opacity: 90%;
+    transition: 0.5s;
+    padding-left: 25px;
+  }
+
+  .site-banner-bg{
+    background-color: #242629;
+    position: relative;
+    width: 100%;
+}
+.site-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 0px 0px;
+} 
+.titulo-banner{
+    font-family:serif;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.banner-img{ 
+    filter: brightness(50%);
+    max-height: 360px;
+    width: auto;
+}   
+
+
+
+.imagen_menu{
+    width: 34px;
+    height: 34px;
+}
+
+.autor{
+  font-size: 27px;
+  color: gray;
+  font-weight: 10;
+  padding-top: 20px;
+  text-align: right;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  opacity: 80%;
+}
+
+footer{
+  background-color: black;
+  height: 40vh;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0px -3px 20px gray;
+  margin-top: 40px;
+  
+  padding-top: 70px;
+}
+.pie_pag, .pie_imagenes{
+  color: white;
+  text-align: center;
+  
+}
+
+.texto_pie{
+  color: white;
+  margin-right: 20px;
+
+}
+
+.texto_pie:hover{
+  color: white;
+}
+
+.imagen_pie{
+  width: 100px;
+  height: 100px;
+  filter: invert(100%);
+  margin-top: 70px;
+  
+}
+
+

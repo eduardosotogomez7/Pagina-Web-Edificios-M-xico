@@ -1,0 +1,6 @@
+![VistaPrincipal](docs/capturasPantalla/vistaPrincipal.png)
+![Edificios](docs/capturasPantalla/edificios.png)
+![Informacion edificio](docs/capturasPantalla/InformacionEdificio.png)
+![Biografias](docs/capturasPantalla/Biografias.png)
+![Espacios Urbanos](docs/capturasPantalla/EspaciosUrbanos.png)
+![Ingresar como Admninistrador](docs/capturasPantalla/IngresarComoAdministrador.png)
